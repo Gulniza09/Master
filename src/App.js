@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Project from './components/project/Project'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const animals = [
+		{
+			id: '0',
+			name: 'Dog',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '250$',
+		},
+		{
+			id: '0',
+			name: 'Cat',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '350$',
+		},
+		{
+			id: '0',
+			name: 'Cat',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '250$',
+		},
+		{
+			id: '0',
+			name: 'Dog',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '250$',
+		},
+		{
+			id: '0',
+			name: 'Dog',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '250$',
+		},
+		{
+			id: '0',
+			name: 'Dog',
+			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9BG-tVnx9lzj4CE4F19AMxmbhBDG-Kym1Q&usqp=CAU',
+			price: '250$',
+		},
+	]
+
+	return (
+		<div className='App'>
+			<Project />
+		</div>
+	)
 }
 
-export default App;
+export default App
