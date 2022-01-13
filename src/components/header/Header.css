@@ -1,0 +1,15 @@
+header {
+	height: 70px;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+ul {
+	display: flex;
+	margin-right: 25px;
+}
+li {
+	list-style: none;
+	padding-left: 15px;
+}
